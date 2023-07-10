@@ -1,0 +1,54 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+   
+    <style>
+        fieldset {
+            margin: auto;
+            padding: auto;
+            width: 300px;
+            border-radius: 25px;
+            text-align: center;
+        }
+    </style>
+</head>
+<body></body>
+    <form>
+        <fieldset>
+            <legend>BMI calculator</legend>
+            <label for="tinggi">tinggi badan:</label> 
+            <br>
+            <input type="text" id="tinggi" name="tinggi" placeholder="tinggi badan (m)">
+
+            <br>
+            <br>
+
+            <label for="berat">berat badan:</label> 
+            <br>
+         <input type="text" id="berat" name="berat" placeholder="berat badan (kg)">
+
+            <br>
+            <br>
+
+            <button type="button" onclick="CountBMI()">hitung BMI</button>
+
+            <br>
+            <br>
+
+            <h1 id ="result"></h1>
+            <h2 id ="type"></h2>
+        </fieldset>
+    </form>
+
+    
+
+    <script src="js-script/script.js">
+        
+    </script>
+    
+</body>
+</html>
